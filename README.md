@@ -12,3 +12,6 @@ Main.parameters.json – An external parameter file which we pass with each depl
   
 ## Deploying Bicep Templates
   ![image](https://github.com/karimelmel/nsec-io-training/assets/26272119/de75ac1d-cf4b-4f87-884b-9b6257dc1a76)
+
+## Importing a repository
+  ![image](https://github.com/karimelmel/nsec-io-training/assets/26272119/f70629fa-46de-4406-bbe0-6922e6c4aa2f)
