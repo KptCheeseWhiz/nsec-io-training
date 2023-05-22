@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "location": {
+        "value": "westeurope"
+      },
+      "resourceGroupName": {
+        "value": "nsec-training"
+      },
+      "subscriptionId":{
+        "value": "d4a7cd5a-5143-4279-bed5-e99f69ecda4d"
+      }
+    }
+  }
