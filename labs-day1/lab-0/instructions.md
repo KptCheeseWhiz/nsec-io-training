@@ -5,7 +5,7 @@ It is important we do not delete the resource group as that will be used in late
 
 ## Instructions
 ~~1. Log in to Github.com. Access the repository: [nsec-io-training](https://github.com/karimelmel/nsec-io-training/)~~
-~~2. Follow the steps to import a repository: https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer
+~~2. Follow the steps to import a repository: https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer~~
 
 Ignore step 1 and 2 until tomorrow!
 
