@@ -1,0 +1,30 @@
+{
+    "properties": {
+        "displayName": "Enforce resource naming rules",
+        "description": "Force resource names to begin with DeptA and end with -LC",
+        "metadata": {
+            "assignedBy": "Cloud Center of Excellence"
+        },
+        "enforcementMode": "DoNotEnforce",
+        "notScopes": [],
+        "policyDefinitionId": "/subscriptions/{mySubscriptionID}/providers/Microsoft.Authorization/policyDefinitions/ResourceNaming",
+        "nonComplianceMessages": [
+            {
+                "message": "Resource names must start with 'DeptA' and end with '-LC'."
+            }
+        ],
+        "parameters": {
+            "prefix": {
+                "value": "DeptA"
+            },
+            "suffix": {
+                "value": "-LC"
+            }
+        },
+        "identity": {
+            "type": "SystemAssigned"
+        },
+        "resourceSelectors": [],
+        "overrides": []
+    }
+}

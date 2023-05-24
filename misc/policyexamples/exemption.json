@@ -1,0 +1,24 @@
+{
+    "id": "/subscriptions/{subId}/resourceGroups/ExemptRG/providers/Microsoft.Authorization/policyExemptions/resourceIsNotApplicable",
+    "apiVersion": "2020-07-01-preview",
+    "name": "resourceIsNotApplicable",
+    "type": "Microsoft.Authorization/policyExemptions",
+    "properties": {
+        "displayName": "This resource is scheduled for deletion",
+        "description": "This resources is planned to be deleted by end of quarter and has been granted a waiver to the policy.",
+        "metadata": {
+            "requestedBy": "Storage team",
+            "approvedBy": "IA",
+            "approvedOn": "2020-07-26T08:02:32.0000000Z",
+            "ticketRef": "4baf214c-8d54-4646-be3f-eb6ec7b9bc4f"
+        },
+        "policyAssignmentId": "/subscriptions/{mySubscriptionID}/providers/Microsoft.Authorization/policyAssignments/resourceShouldBeCompliantInit",
+        "policyDefinitionReferenceIds": [
+            "requiredTags",
+            "allowedLocations"
+        ],
+        "exemptionCategory": "waiver",
+        "expiresOn": "2020-12-31T23:59:00.0000000Z",
+        "assignmentScopeValidation": "Default"
+    }
+}
